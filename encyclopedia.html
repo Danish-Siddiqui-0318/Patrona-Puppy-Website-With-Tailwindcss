@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Encyclopedia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class=" body-font  bg-black">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2"
+                    class="w-10 h-10 text-white p-2 cursor-pointer rounded-full" viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span class="ml-3 text-xl uppercase text-white cursor-pointer">Patrona</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center text-white">
+                <a class="mr-5 hover:text-cyan-400 cursor-pointer transition-all hover:scale-125  duration-300"
+                    href="index.html">Home</a>
+                <a class="mr-5 hover:text-cyan-400 cursor-pointer transition-all hover:scale-125  duration-300"
+                    href="#intro">About Us</a>
+                <a class="mr-5 hover:text-cyan-400 cursor-pointer transition-all hover:scale-125 duration-300"
+                    href="encyclopedia.html">Dog Encyclopedia</a>
+                <a class="mr-5 hover:text-cyan-400 cursor-pointer transition-all hover:scale-125 duration-300"
+                    href="gallery.html">Dog Gallery</a>
+                <a class="mr-5 hover:text-cyan-400 cursor-pointer transition-all hover:scale-125 duration-300"
+                    href="health.html">Dog Health</a>
+                <a class="mr-5 hover:text-cyan-400 cursor-pointer transition-all hover:scale-125 duration-300"
+                    href="faq.html">FAQs</a>
+            </nav>
+        </div>
+    </header>
+    <!-- header -->
+    <!-- Breadcrumb -->
+    <nav class="flex px-5 py-3 text-gray-700 border justify-center rounded-lg " aria-label="Breadcrumb">
+        <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
+            <li class="inline-flex items-center">
+                <a href="index.html" class="inline-flex items-center text-sm font-medium  hover:text-cyan-500">
+                    <svg class="w-3 h-3 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                            d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z" />
+                    </svg>
+                    Home
+                </a>
+            </li>
+            <li>
+                <div class="flex items-center">
+                    <svg class="rtl:rotate-180 block w-3 h-3 mx-1 text-gray-400 " aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m1 9 4-4-4-4" />
+                    </svg>
+                    <a href="#" class="ms-1 text-sm font-medium text-gray-700 hover:text-cyan-500 md:ms-2">Dog
+                        Encyclopedia</a>
+                </div>
+            </li>
+        </ol>
+    </nav>
+    <!-- breadcrumb -->
+    <!-- hero  component -->
+    <div class="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="images/galleryimg/17.jpeg" alt="Background Image"
+                class="object-cover object-center w-full h-full" />
+            <div class="absolute inset-0 bg-black opacity-50"></div>
+        </div>
+
+        <div class="relative z-10 flex flex-col justify-center items-center h-full text-center">
+            <h1 class="text-5xl font-bold leading-tight mb-4">WELCOME TO OUR DOG ENCYCLOPEDIA</h1>
+            <p class=" text-gray-300 mb-8 text-2xl">"Enter The World Of Dogs:
+                Your Canine Knowledge Hub!"</p>
+            <a href="#start"
+                class="bg-cyan-400 text-gray-900 hover:bg-cyan-300 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Get
+                Started</a>
+        </div>
+    </div>
+    <!-- hero component -->
+    <!-- article 1 -->
+    <section class="text-white body-font bg-black" id="start">
+        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+            <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero"
+                src="images/galleryimg/12.jpg">
+            <div class="text-center lg:w-2/3 w-full">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium ">INTRODUCTION</h1>
+                <p class="mb-8 leading-relaxed font-bold text-xl">Dogs, Often Referred To As "Man's Best Friend," Have
+                    Been Humans' Loyal
+                    Companions For Thousands Of Years. Their Diverse Breeds Display A Wide Range Of Sizes, Temperaments
+                    And Abilities, Making Them Suitable For A Variety Of Roles, From Loyal Family Pets To Skilled
+                    Working Partners. In This Comprehensive Guide, We'll Delve Into The Fascinating World Of Dogs,
+                    Exploring Their History, Characteristics, And The Multitude Of Breeds That Make Them Such Beloved
+                    Members Of Our Household.</p>
+            </div>
+        </div>
+    </section>
+    <!-- article 1 -->
+    <!-- article 2 -->
+    <div class="bg-gray-200 py-44 px-4 sm:px-6 lg:px-8 flex flex-col-reverse sm:flex-row items-center justify-center">
+        <!-- Right side -->
+        <div class="sm:w-1/2">
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-center sm:text-left text-gray-800 mb-8">History
+                of Dogs:</h1>
+            <p class="text-lg sm:text-xl text-center sm:text-left text-gray-700 font-serif">The Domestication Of Dogs
+                Dates Lower
+                Back Tens Of Lots Of Years, With Proof Suggesting That People And Dogs Shaped A Symbiotic Relationship
+                As Early As The Paleolithic Technology. Initially Serving As Looking And Guarding Partners, Puppies
+                Evolved To Tackle Diverse Roles Within Human Societies, Such As Herding, Pulling Carts, And Supplying
+                Assistance To Human Beings With Disabilities. Today, Their Roles Enlarge To Therapy, Seek And Rescue, Or
+                Even Law Enforcement.</p>
+        </div>
+        <!-- Left side -->
+        <div class="sm:w-1/2">
+            <img class="mx-auto sm:mx-0 w-full max-w-xs sm:max-w-none" src="images/galleryimg/8.jpg" alt="Picture">
+        </div>
+    </div>
+    <!-- article 2 -->
+    <!-- article 3 -->
+
+    <div
+        class="bg-black py-44 px-4 sm:px-6 lg:px-8 flex flex-col-reverse sm:flex-row items-center justify-center text-white">
+        <!-- Right side -->
+        <div class="sm:w-1/2">
+            <img class="mx-auto sm:mx-0 w-full max-w-xs sm:max-w-none" src="images/galleryimg/5.jpg" alt="Picture">
+        </div>
+        <div class="sm:w-1/2">
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-center sm:text-left mb-8 mx-5">
+                Diverse Breeds:</h1>
+            <div class="text-lg font-sans mx-8">
+                <ul class="list-decimal list-inside">
+                    <li class="mb-6">
+                        <span class="font-semibold">Working Dogs:</span>
+                        <p class="mt-2">Examples: German Shepherd, Siberian Husky, Boxer</p>
+                        <p class="mt-1">Traits: Strong, intelligent, and often used for tasks like guarding, pulling, or
+                            search and rescue.</p>
+                    </li>
+                    <li class="mb-6">
+                        <span class="font-semibold">Sporting Dogs:</span>
+                        <p class="mt-2">Examples: Labrador Retriever, Golden Retriever, English Springer Spaniel</p>
+                        <p class="mt-1">Traits: Energetic, friendly, and well-suited for hunting and retrieving.</p>
+                    </li>
+                    <li class="mb-6">
+                        <span class="font-semibold">Toy Dogs:</span>
+                        <p class="mt-2">Examples: Chihuahua, Pomeranian, Shih Tzu</p>
+                        <p class="mt-1">Traits: Small in size, often kept as companions or lap dogs.</p>
+                    </li>
+                    <li class="mb-6">
+                        <span class="font-semibold">Herding Dogs:</span>
+                        <p class="mt-2">Examples: Border Collie, Australian Shepherd, Corgi</p>
+                        <p class="mt-1">Traits: Intelligent, agile, and originally bred for herding livestock.</p>
+                    </li>
+                    <li class="mb-6">
+                        <span class="font-semibold">Hound Dogs:</span>
+                        <p class="mt-2">Examples: Beagle, Greyhound, Bloodhound</p>
+                        <p class="mt-1">Traits: Excellent sense of smell or sight, often used for hunting.</p>
+                    </li>
+                    <li class="mb-6">
+                        <span class="font-semibold">Terrier Dogs:</span>
+                        <p class="mt-2">Examples: Jack Russell Terrier, Scottish Terrier, Bull Terrier</p>
+                        <p class="mt-1">Traits: Energetic, feisty, and known for their hunting and digging abilities.
+                        </p>
+                    </li>
+                    <li class="mb-6">
+                        <span class="font-semibold">Non-Sporting Dogs:</span>
+                        <p class="mt-2">Examples: Bulldog, Poodle, Dalmatian</p>
+                        <p class="mt-1">Traits: Diverse group with various sizes, temperaments, and purposes.</p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- Left side -->
+    </div>
+
+    <!-- article 3 -->
+    <!-- article 4 -->
+
+    <div class="container mx-auto my-5">
+        <div class="flex flex-col lg:flex-row items-center rounded-lg border shadow-lg p-4 lg:p-0">
+            <div class="lg:w-7/12 p-3 lg:p-5 pt-3">
+                <h1 class="text-4xl font-bold leading-tight text-body-emphasis">Characteristics of Dogs:</h1>
+                <p class="text-2xl capitalize leading-relaxed my-3">
+                    Regardless of breed, dogs share common characteristics such as loyalty,
+                    companionship, and a keen sense of smell. Their ability to form strong bonds with humans
+                    makes them an integral part of families worldwide. Dogs are known for their
+                    adaptability, intelligence, and emotional intelligence, allowing them to understand and
+                    respond to human emotions.
+                </p>
+                <!-- <div class="grid gap-2 grid-cols-1 md:grid-cols-2 justify-start md:justify-center my-4 md:my-3">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                </div> -->
+            </div>
+            <div class="lg:w-5/12 lg:offset-1 overflow-hidden shadow-lg">
+                <img class="rounded-lg object-cover w-full" src="images/galleryimg/2.jpg" alt="" width="720">
+            </div>
+        </div>
+    </div>
+
+    <!-- article 4 -->
+    <!-- article 5 -->
+    <section class="text-white body-font bg-black" id="start">
+        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+            <div class="text-center lg:w-2/3 w-full">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium ">Concluision</h1>
+                <p class="mb-8 leading-relaxed font-bold text-xl">In Conclusion, Dogs Are An Extraordinary Species With
+                    An Extensive History Of Companionship And Service To Humanity. Their Diverse Breeds Cater To A Wide
+                    Range Of Preferences And Lifestyles, Ensuring That There's A Perfect Furry Friend For Every
+                    Individual Or Family. Whether As A Working Partner, A Loyal Companion, Or A Source Of Joy And
+                    Comfort, Dogs Continue To Enrich Our Lives In Countless Ways. Understanding Their History, Breeds,
+                    And Unique Qualities Enhances Our Appreciation For These Remarkable Creatures That Have Truly Earned
+                    The Title Of "Man's Best Friend."</p>
+            </div>
+            <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero"
+                src="images/galleryimg/6.jpg">
+        </div>
+    </section>
+    <!-- article 5 -->
+
+    <!-- country Select -->
+    <div class="col-span-12">
+        <h1 id="result" class="text-center capitalize text-xl"></h1>
+        <div class="grid grid-cols-12 gap-4">
+            <div class="col-span-12">
+                <label for="countrySelect" class="block">Select Country:</label>
+                <select id="countrySelect" onchange="changeCountry()"
+                    class="form-select mt-1 block w-full outline-black outline">
+                    <!-- Options for countries -->
+                    <option value="Afghanistan">Afghanistan</option>
+                    <option value="Albania">Albania</option>
+                    <option value="Algeria">Algeria</option>
+                    <option value="Andorra">Andorra</option>
+                    <option value="Angola">Angola</option>
+                    <option value="Antigua">Antigua and Barbuda</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Armenia">Armenia</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Austria">Austria</option>
+                    <option value="Azerbaijan">Azerbaijan</option>
+                    <option value="Bahamas">Bahamas</option>
+                    <option value="Bahrain">Bahrain</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Barbados">Barbados</option>
+                    <option value="Belarus">Belarus</option>
+                    <option value="Belgium">Belgium</option>
+                    <option value="Belize">Belize</option>
+                    <option value="Benin">Benin</option>
+                    <option value="Bhutan">Bhutan</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Bosnia">Bosnia and Herzegovina</option>
+                    <option value="Botswana">Botswana</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Brunei">Brunei</option>
+                    <option value="Bulgaria">Bulgaria</option>
+                    <option value="Burkina">Burkina Faso</option>
+                    <option value="Burundi">Burundi</option>
+                    <option value="Cabo Verde">Cabo Verde</option>
+                    <option value="Cambodia">Cambodia</option>
+                    <option value="Cameroon">Cameroon</option>
+                    <option value="Canada">Canada</option>
+                    <option value="CentralAfrican">Central African Republic</option>
+                    <option value="Chad">Chad</option>
+                    <option value="Chile">Chile</option>
+                    <option value="China">China</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Comoros">Comoros</option>
+                    <option value="Congo">Congo, Democratic Republic of the</option>
+                    <option value="Costa">Costa Rica</option>
+                    <option value="Côte">Côte d’Ivoire (Ivory Coast)</option>
+                    <option value="Croatia">Croatia</option>
+                    <option value="Cuba">Cuba</option>
+                    <option value="Cyprus">Cyprus</option>
+                    <option value="Denmark">Denmark</option>
+                    <option value="Djibouti">Djibouti</option>
+                    <option value="Dominica">Dominica</option>
+                    <option value="Dominican">Dominican Republic</option>
+                    <option value="EastTimor">East Timor (Timor-Leste)</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="ElSalvador">El Salvador</option>
+                    <option value="EquatorialGuinea">Equatorial Guinea</option>
+                    <option value="Eritrea">Eritrea</option>
+                    <option value="Estonia">Estonia</option>
+                    <option value="Eswatini">Eswatini</option>
+                    <option value="Ethiopia">Ethiopia</option>
+                    <option value="Fiji">Fiji</option>
+                    <option value="Finland">Finland</option>
+                    <option value="France">France</option>
+                    <option value="Gabon">Gabon</option>
+                    <option value="TheGambia">The Gambia</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Greece">Greece</option>
+                    <option value="Grenada">Grenada</option>
+                    <option value="Guatemala">Guatemala</option>
+                    <option value="Guinea">Guinea</option>
+                    <option value="GuineaBissau">Guinea-Bissau</option>
+                    <option value="Guyana">Guyana</option>
+                    <option value="Haiti">Haiti</option>
+                    <option value="Honduras">Honduras</option>
+                    <option value="Hungary">Hungary</option>
+                    <option value="Iceland">Iceland</option>
+                    <option value="India">India</option>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Iran">Iran</option>
+                    <option value="Iraq">Iraq</option>
+                    <option value="Ireland">Ireland</option>
+                    <!-- <option value="Israel">Israel</option> -->
+                    <option value="Italy">Italy</option>
+                    <option value="Jamaica">Jamaica</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Jordan">Jordan</option>
+                    <option value="Kazakhstan">Kazakhstan</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Kiribati">Kiribati</option>
+                    <option value="KoreaNorth">North Korea</option>
+                    <option value="SouthKorea">South Korea</option>
+                    <option value="Kosovo">Kosovo</option>
+                    <option value="Kuwait">Kuwait</option>
+                    <option value="Kyrgyzstan">Kyrgyzstan</option>
+                    <option value="Laos">Laos</option>
+                    <option value="Latvia">Latvia</option>
+                    <option value="Lebanon">Lebanon</option>
+                    <option value="Lesotho">Lesotho</option>
+                    <option value="Liberia">Liberia</option>
+                    <option value="Libya">Libya</option>
+                    <option value="Liechtenstein">Liechtenstein</option>
+                    <option value="Lithuania">Lithuania</option>
+                    <option value="Luxembourg">Luxembourg</option>
+                    <option value="Madagascar">Madagascar</option>
+                    <option value="Malawi">Malawi</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Maldives">Maldives</option>
+                    <option value="Mali">Mali</option>
+                    <option value="Malta">Malta</option>
+                    <option value="MarshallIslands">Marshall Islands</option>
+                    <option value="Mauritania">Mauritania</option>
+                    <option value="Mauritius">Mauritius</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Micronesia">Micronesia</option>
+                    <option value="Moldova">Moldova</option>
+                    <option value="Monaco">Monaco</option>
+                    <option value="Mongolia">Mongolia</option>
+                    <option value="Montenegro">Montenegro</option>
+                    <option value="Morocco">Morocco</option>
+                    <option value="Mozambique">Mozambique</option>
+                    <option value="Myanmar">Myanmar</option>
+                    <option value="Namibia">Namibia</option>
+                    <option value="Nauru">Nauru</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="Netherlands">Netherlands</option>
+                    <option value="NewZealand">New Zealand</option>
+                    <option value="Nicaragua">Nicaragua</option>
+                    <option value="Niger">Niger</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="NorthMacedonia">North Macedonia </option>
+                    <option value="Norway">Norway</option>
+                    <option value="Oman">Oman</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Palau">Palau</option>
+                    <option value="Panama">Panama</option>
+                    <option value="PapuaNewGuinea">Papua New Guinea</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Peru">Peru</option>
+                    <option value="Philippines">Philippines</option>
+                    <option value="Poland">Poland</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Qatar">Qatar</option>
+                    <option value="Romania">Romania</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Rwanda">Rwanda</option>
+                    <option value="SaintKittsandNevis">Saint Kitts and Nevis</option>
+                    <option value="SaintLucia">Saint Lucia</option>
+                    <option value="SaintVincentandtheGrenadines">Saint Vincent and the Grenadines</option>
+                    <option value="Samoa">Samoa</option>
+                    <option value="SanMarino">San Marino</option>
+                    <option value="SaoTomeandPrincipe">Sao Tome and Principe</option>
+                    <option value="SaudiArabia">Saudi Arabia</option>
+                    <option value="Senegal">Senegal</option>
+                    <option value="Serbia">Serbia</option>
+                    <option value="Seychelles">Seychelles</option>
+                    <option value="SierraLeone">Sierra Leone</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Slovakia">Slovakia</option>
+                    <option value="SolomonIslands">Solomon Islands</option>
+                    <option value="Somalia">Somalia</option>
+                    <option value="SouthAfrica">South Africa</option>
+                    <option value="SouthSudan">South Sudan</option>
+                    <option value="Spain">Spain</option>
+                    <option value="SriLanka">Sri Lanka</option>
+                    <option value="Sudan">Sudan</option>
+                    <option value="Sweden">Sweden</option>
+                    <option value="Switzerland">Switzerland</option>
+                    <option value="Syria">Syria</option>
+                    <option value="Taiwan">Taiwan</option>
+                    <option value="Tajikistan">Tajikistan</option>
+                    <option value="Tanzania">Tanzania</option>
+                    <option value="Thailand">Thailand</option>
+                    <option value="Togo">Togo</option>
+                    <option value="Tonga">Tonga</option>
+                    <option value="TrinidadandTobago">Trinidad and Tobago</option>
+                    <option value="Tunisia">Tunisia</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="Turkmenistan">Turkmenistan</option>
+                    <option value="Tuvalu">Tuvalu</option>
+                    <option value="Uganda">Uganda</option>
+                    <option value="UAE">UAE</option>
+                    <option value="UK">UK</option>
+                    <option value="USA">USA</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Uzbekistan">Uzbekistan</option>
+                    <option value="Vanuatu">Vanuatu</option>
+                    <option value="VaticanCity">Vatican City</option>
+                    <option value="Venezuela">Venezuela</option>
+                    <option value="Vietnam">Vietnam</option>
+                    <option value="Yemen">Yemen</option>
+                    <option value="Zambia">Zambia</option>
+                    <option value="Zimbabwe">Zimbabwe</option>
+                </select>
+                <div id="dogList" class="grid grid-cols-12 gap-4 mt-4 capitalize"></div>
+            </div>
+        </div>
+    </div>
+    <!-- country Select -->
+
+    <!-- footer -->
+    <footer class="text-white body-font bg-black">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 rounded-full"
+                    viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span class="ml-3 text-xl uppercase">patrona</span>
+            </a>
+            <p class="text-sm  sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4 uppercase">©
+                Patrona
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start cursor-pointer">
+                <a class="text-gray-500  hover:text-blue-700 transition-all rounded-full">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-500 hover:text-cyan-400 transition-all rounded-full">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <path
+                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                        </path>
+                    </svg>
+                </a>
+                <a
+                    class="ml-3 text-gray-500 hover:text-white hover:bg-gradient-to-r from-red-500 via-purple-500 to-blue-500 transition-all rounded-full">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                </a>
+            </span>
+        </div>
+    </footer>
+        <!-- footer -->
+        <script src="script.js"></script>
+</body>
+
+</html>

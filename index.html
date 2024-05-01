@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patrona-The Puppy Website With TaliwindCss</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header class=" body-font  bg-black">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+          stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 cursor-pointer rounded-full"
+          viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        <span class="ml-3 text-xl uppercase text-white cursor-pointer">Patrona</span>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center text-white">
+        <a class="mr-5 hover:text-cyan-400 cursor-pointer transition-all hover:scale-125  duration-300"
+          href="index.html">Home</a>
+        <a class="mr-5 hover:text-cyan-400 cursor-pointer transition-all hover:scale-125  duration-300"
+          href="#intro">About Us</a>
+        <a class="mr-5 hover:text-cyan-400 cursor-pointer transition-all hover:scale-125 duration-300"
+          href="encyclopedia.html">Dog Encyclopedia</a>
+        <a class="mr-5 hover:text-cyan-400 cursor-pointer transition-all hover:scale-125 duration-300"
+          href="gallery.html">Dog Gallery</a>
+        <a class="mr-5 hover:text-cyan-400 cursor-pointer transition-all hover:scale-125 duration-300"
+          href="health.html">Dog Health</a>
+        <a class="mr-5 hover:text-cyan-400 cursor-pointer transition-all hover:scale-125 duration-300"
+          href="faq.html">FAQs</a>
+      </nav>
+    </div>
+  </header>
+  <!-- header -->
+
+  <!-- Main Page Hero -->
+
+  <section class="relative bg-image bg-cover bg-center bg-no-repeat"
+    style="background-image:url('images/galleryimg/14.jpeg')" id="intro">
+    <div
+      class="absolute inset-0 bg-white/75 sm:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l">
+    </div>
+
+    <div class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
+      <div class="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+        <h1 class="text-3xl font-extrabold sm:text-5xl uppercase">
+          Patrona
+
+          <strong class="block font-extrabold text-cyan-500 capitalize">the puppy Website</strong>
+        </h1>
+
+        <p class="mt-4 max-w-lg sm:text-xl/relaxed capitalize text-black block font-extrabold">
+          Welcome To Our Canine Haven! Immerse Yourself In The Captivating World Of Dogs With Our Comprehensive Website.
+          Explore A Virtual Dog Encyclopedia, A Treasure Trove Of Information Covering Various Breeds, Their History,
+          And Unique Traits. Dive Into Our Enchanting Dog Gallery, Where Heartwarming Images Showcase The Diversity And
+          Charm Of Man's Best Friend. Delve Into The Realm Of Dog Health, Where We Provide Expert Insights And Tips To
+          Ensure Your Furry Companions Lead Happy, Healthy Lives. Whether You're A Seasoned Dog Enthusiast Or A New Pet
+          Parent, Our Website Is Your Go-To Destination For Everything Dog-Related. Unleash The Joy Of Learning And
+          Caring For These Lovable Companions With Us!
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- main Page Hero -->
+
+  <!-- Feature -->
+  <section class="body-font text-gray-600 capitalize">
+    <div class="container mx-auto px-5 py-24">
+      <div class="flex flex-col">
+        <div class="h-1 overflow-hidden rounded bg-gray-200">
+          <div class="h-full w-80 bg-cyan-400"></div>
+        </div>
+        <div class="mb-12 flex flex-col flex-wrap py-6 sm:flex-row">
+          <h1 class="title-font mb-2 text-3xl font-medium text-gray-900 sm:mb-0 sm:w-2/5 uppercase">Feature</h1>
+        </div>
+      </div>
+      <div class="-mx-4 -mb-10 -mt-4 flex flex-wrap sm:-m-4">
+        <div class="mb-6 p-4 sm:mb-0 md:w-1/3 hover:scale-110 transition-all duration-300">
+          <div class="h-64 overflow-hidden rounded-lg">
+            <img alt="content" class="h-full w-full object-cover object-center" src="images/for homepage/7.jpg" />
+          </div>
+          <h2 class="title-font mt-5 text-xl font-medium text-gray-900">Dog Gallery</h2>
+          <p class="mt-2 text-base leading-relaxed ">"Dive into Pawesome Dog Pics! Check out our Dog Gallery"</p>
+          <a class="mt-3 inline-flex items-center text-cyan-400" href="gallery.html">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="ml-2 h-4 w-4" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="mb-6 p-4 sm:mb-0 md:w-1/3 hover:scale-110 transition-all duration-300">
+          <div class="h-64 overflow-hidden rounded-lg">
+            <img alt="content" class="h-full w-full object-cover object-center" src="images/for homepage/15.jpeg" />
+          </div>
+          <h2 class="title-font mt-5 text-xl font-medium text-gray-900">Dog Health</h2>
+          <p class="mt-2 text-base leading-relaxed">"Explore essential tips for ensuring your dog's well-being. Visit
+            Now!"</p>
+          <a class="mt-3 inline-flex items-center text-cyan-400" href="health.html">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="ml-2 h-4 w-4" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="mb-6 p-4 sm:mb-0 md:w-1/3 hover:scale-110 transition-all duration-300">
+          <div class="h-64 overflow-hidden rounded-lg">
+            <img alt="content" class="h-full w-full object-cover object-center" src="images/for homepage/1.jpg" />
+          </div>
+          <h2 class="title-font mt-5 text-xl font-medium text-gray-900">Dog Encyclopedia</h2>
+          <p class="mt-2 text-base leading-relaxed">Informative Canine Await!
+            Explore Dog Encyclopedia Now.</p>
+          <a class="mt-3 inline-flex items-center text-cyan-400" href="encyclopedia.html">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="ml-2 h-4 w-4" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature -->
+
+  <!-- footer -->
+  <footer class="text-white body-font bg-black">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+          stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 rounded-full" viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        <span class="ml-3 text-xl uppercase">patrona</span>
+      </a>
+      <p class="text-sm  sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4 uppercase">© Patrona
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start cursor-pointer">
+        <a class="text-gray-500  hover:text-blue-700 transition-all rounded-full">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500 hover:text-cyan-400 transition-all rounded-full">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path
+              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+            </path>
+          </svg>
+        </a>
+        <a
+          class="ml-3 text-gray-500 hover:text-white hover:bg-gradient-to-r from-red-500 via-purple-500 to-blue-500 transition-all rounded-full">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </footer>
+  <!-- footer -->
+
+</body>
+
+</html>
